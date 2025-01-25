@@ -1,0 +1,449 @@
+/* Import statements */
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Futura:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap');
+
+/* Helvetica Neue */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Garamond */
+h1, h2, h3 {
+    font-family: 'Garamond', serif;
+}
+
+/* Futura */
+p {
+    font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Bodoni */
+blockquote {
+    font-family: 'Bodoni Moda', 'Didot', serif;
+}
+
+/* Avenir */
+nav, footer {
+    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.homeDiv{
+    display: flex;  
+}
+.homeDiv .wrapper{
+    width: 100vw;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.homeDiv .wrapper .video video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    z-index: -2;
+}
+.homeDiv .wrapper .photo img{
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.homeDiv .wrapper .text-content{
+    position: absolute;
+    top: 0;
+    color: white;
+    opacity: .5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.homeDiv .wrapper .text-content .img_txt .title .tx1{
+    font-size: 30px;
+    position: absolute;
+    font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
+    left: 25%;
+    top: 25%;
+}
+.homeDiv .wrapper .text-content .img_txt .title .tx2{
+    font-size: 85px;
+    position: absolute;
+    font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
+    top: 28%;
+    left: 25%;
+}
+.homeDiv .wrapper .text-content .img_txt .title .tx3{
+    font-size: 45px;
+    position: absolute;
+    font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
+    bottom: 35%;
+    right: 40%;
+}
+.homeDiv .wrapper .text-content .img_txt .title .tx4{
+    font-size: 65px;
+    position: absolute;
+    font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
+    bottom: 25%;
+    right: 17%;
+}
+.homeDiv .wrapper .v_container{
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.homeDiv .wrapper .v_container .left-side .tv .tx3{
+    position: absolute;
+    font-size: 65px;
+    font-family: 'Bodoni Moda', 'Didot', serif;
+    bottom: 30%;
+}
+.homeDiv .wrapper .v_container .left-side .text-container{
+    position: absolute;
+    font-size: large;
+    font-family: 'Bodoni Moda', 'Didot', serif;
+    left: 10%;
+    bottom: 15%;
+}
+.homeDiv .wrapper .v_container .right-side .expl{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    right: 10%;
+    bottom: 6%;
+    font-size: x-large;
+    border-radius: 50%;
+    border-top: 1px solid grey;
+    border-bottom: 2px solid rgb(181, 178, 178);
+}
+.homeDiv .wrapper .v_container .right-side .expl:hover{
+    border-top: 2px solid white;
+    border-bottom: 1px solid grey;
+    color: white;
+}
+.homeDiv .wrapper .v_container .right-side .expl .txt{
+    position: absolute;
+    left: -30%;
+}
+.homeDiv .wrapper .v_container .right-side .expl .arw{
+    position: absolute;
+    font-size: x-large;
+    bottom: 40%;
+    right: -10%;
+}
+.homeDiv .secMain{
+    background-color: rgb(40, 37, 37);
+    width: 100vw;
+    flex-shrink: 0;
+    z-index: 100;
+    padding-top: 7rem;
+}
+.homeDiv .secMain .seSec{
+    display: flex;
+    flex-direction: column;
+}
+.homeDiv .secMain .seSec .sec{
+    width: 100%;
+    background-color: rgb(40, 37, 37);
+    display: flex;
+    flex-shrink: 0;
+    z-index: 1000;
+    padding: 8rem;
+    border-right: 1px solid grey;
+}
+.homeDiv .secMain .seSec .sec .gif1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
+    gap: 1.5rem;
+    margin-left: -3%;
+}
+.homeDiv .secMain .seSec .sec .gif1 img:first-child{
+    width: 150px;
+    height: 170px;
+    object-fit: cover;
+}
+.homeDiv .secMain .seSec .sec .gif1 img:nth-child(2){
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+.homeDiv .secMain .seSec .sec .cnt{
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 99;
+    padding: 1%;
+    margin-right: 1%;
+    margin-left: -3%;
+}
+.homeDiv .secMain .seSec .sec .cnt h1{
+    background: linear-gradient(to top, rgb(180, 122, 7), rgb(249, 249, 246));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    font-size: 42px;
+    top: 5%;
+    left: 15%;
+    width: 100%;
+}
+.homeDiv .secMain .seSec .sec .cnt p{
+    color: white;
+    opacity: .7;
+    width: 100%;
+}
+.homeDiv .secMain .seSec .sec .cnt .name{
+    color: white;
+    width: 90%;
+    text-align: end;
+    opacity: .7;
+}
+.homeDiv .gif2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 30%;
+    margin-right: 4%;
+    margin-top: 1%;
+}
+.homeDiv .secMain .seSec .sec .gif2 img:first-child{
+    width: 300px;
+    object-fit: cover;
+}
+.homeDiv .secMain .seSec .sec .gif2 img:nth-child(2){
+    width: 130px;
+    object-fit: cover;
+}
+.homeDiv .secMain .seSec .sec .gif2 img:nth-child(3){
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.homeDiv .sec2{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+/* Media Queries */
+@media (max-width: 1025px) {
+    .homeDiv .secMain .seSec .sec{
+        height: 90vh;
+        padding: 2%;
+    }
+    .homeDiv .secMain .seSec .sec .gif1 img:first-child {
+        width: 100px;
+        height: 120px;
+    }
+    .homeDiv .secMain .seSec .sec .gif1 img:nth-child(2) {
+        width: 180px;
+        height: 250px;
+    }
+    .homeDiv .secMain .seSec .sec .gif2 img:first-child {
+        width: 200px;
+    }
+    .homeDiv .secMain .seSec .sec .gif2 img:nth-child(2) {
+        width: 80px;
+    }
+    .homeDiv .secMain .seSec .sec .gif2 img:nth-child(3) {
+        width: 100px;
+        height: 60px;
+    }
+    .homeDiv .secMain .seSec .sec .cnt {
+        width: 40%;
+        height: 50%;
+    }
+    .homeDiv .secMain .seSec .sec .cnt h1 {
+        left: 35%;
+        font-size: 24px;
+    }
+    .homeDiv .secMain .seSec .sec .cnt p,
+    .homeDiv .secMain .seSec .sec .cnt .name {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homeDiv .secMain .seSec .sec{
+        height: 80vh;
+        padding: 2%;
+    }
+    .homeDiv .secMain .seSec .sec .gif1 img:first-child {
+        width: 80px;
+        height: 100px;
+    }
+    .homeDiv .secMain .seSec .sec .gif1 img:nth-child(2) {
+        width: 150px;
+        height: 220px;
+    }
+    .homeDiv .secMain .seSec .sec .gif2 img:first-child {
+        width: 160px;
+    }
+    .homeDiv .secMain .seSec .sec .gif2 img:nth-child(2) {
+        width: 60px;
+    }
+    .homeDiv .secMain .seSec .sec .gif2 img:nth-child(3) {
+        width: 80px;
+        height: 50px;
+    }
+    .homeDiv .secMain .seSec .sec .cnt {
+        width: 60%;
+        height: 40%;
+    }
+    .homeDiv .secMain .seSec .sec .cnt h1 {
+        font-size: 20px;
+    }
+    .homeDiv .secMain .seSec .sec .cnt p,
+    .homeDiv .secMain .seSec .sec .cnt .name {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 426px) {
+    .homeDiv .secMain .sec{
+        height: 60vh;
+        padding: 2%;
+    }
+    .homeDiv .secMain .sec .gif1 img:first-child {
+        width: 60px;
+        height: 80px;
+    }
+    .homeDiv .secMain .sec .gif1 img:nth-child(2) {
+        width: 80px;
+        height: 150px;
+    }
+    .homeDiv .secMain .sec .gif2 img:first-child {
+        width: 80px;
+    }
+    .homeDiv .secMain .sec .gif2 img:nth-child(2) {
+        width: 30px;
+    }
+    .homeDiv .secMain .sec .gif2 img:nth-child(3) {
+        width: 40px;
+        height: 40px;
+    }
+    .homeDiv .secMain .sec .cnt {
+        width: 60%;
+        height: 40%;
+        padding: 1%;
+    }
+    .homeDiv .secMain .sec .cnt h1 {
+        left: 5%;
+        width: 100%;
+        top: 1%;
+        font-size: 12px;
+    }
+    .homeDiv .secMain .sec .cnt p,
+    .homeDiv .secMain .sec .cnt .name {
+        font-size: 6px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 376px) {
+    .homeDiv .secMain .sec .gif1 img:first-child {
+        width: 50px;
+        height: 70px;
+    }
+    .homeDiv .secMain .sec .gif1 img:nth-child(2) {
+        width: 65px;
+        height: 150px;
+    }
+    .homeDiv .secMain .sec .gif2 img:first-child {
+        width: 70px;
+    }
+    .homeDiv .secMain .sec .gif2 img:nth-child(2) {
+        width: 40px;
+    }
+    .homeDiv .secMain .sec .gif2 img:nth-child(3) {
+        width: 50px;
+        height: 30px;
+    }
+    .homeDiv .secMain .sec .cnt{
+        width: 100%;
+        height: 50%;
+    }
+    .homeDiv .secMain .sec .cnt h1 {
+        left: 10%;
+        top: 10%;
+        font-size: 8px;
+    }
+    .homeDiv .secMain .sec .cnt p,
+    .homeDiv .secMain .sec .cnt .name {
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 321px) {
+    .homeDiv .secMain .sec{
+        width: 100vw;
+        padding: 2%;
+        position: relative;
+        flex-shrink: 0;
+    }
+    .homeDiv .secMain .sec .gif1 img:first-child {
+        width: 70px;
+        height: 100px;
+    }
+    .homeDiv .secMain .sec .gif1 img:nth-child(2) {
+        width: 95px;
+        height: 100px;
+    }
+    .homeDiv .secMain .sec .gif2 img:first-child {
+        width: 5px;
+        display: none;
+    }
+    .homeDiv .secMain .sec .gif2 img:nth-child(2) {
+        display: none;
+    }
+    .homeDiv .secMain .sec .gif2 img:nth-child(3) {
+        width: 70px;
+        height: 50px;
+        position: absolute;
+        left: 40%;
+        bottom: 4%;
+    }
+    .homeDiv .secMain .sec .cnt{
+        margin-left: 15%;
+    }
+    .homeDiv .secMain .sec .cnt h1 {
+        position: relative;
+        margin-top: 51%;
+        font-size: 7px;
+    }
+    .homeDiv .secMain .sec .cnt p{
+        margin-top: 15%;
+    }
+    .homeDiv .secMain .sec .cnt p,
+    .homeDiv .secMain .sec .cnt .name {
+        font-size: 4px;
+    }
+}
+

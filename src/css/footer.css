@@ -1,0 +1,59 @@
+/* Import statements */
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Futura:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Avenir:wght@400;700&display=swap');
+
+/* Helvetica Neue */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Garamond */
+h1, h2, h3 {
+    font-family: 'Garamond', serif;
+}
+
+/* Futura */
+p {
+    font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Bodoni */
+blockquote {
+    font-family: 'Bodoni Moda', 'Didot', serif;
+}
+
+/* Avenir */
+nav, footer {
+    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.ftrDiv{
+    background-color: rgb(4, 4, 4);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.407);
+    font-family: 'Garamond', serif;
+    margin-top: 4%;
+}
+.ftrDiv .ttl h1{
+    text-decoration: none;
+    background: linear-gradient(to top, rgb(82, 80, 80), rgb(249, 249, 246));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+.ftrDiv .sclHndl .inst{
+    text-decoration: none;
+    background: linear-gradient(to top, rgb(82, 80, 80), rgb(249, 249, 246));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: sans-serif;
+}

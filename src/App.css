@@ -1,0 +1,6 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40, 37, 37);
+    overflow-x: hidden;
+}
